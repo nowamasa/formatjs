@@ -2,6 +2,8 @@
 
 JavaScript date format tester.
 
+[![Build Status](https://secure.travis-ci.org/nowamasa/formatjs.png?branch=master)](http://travis-ci.org/nowamasa/formatjs)
+
 ## Getting Started
 ### On the server
 Install the module with: `npm install formatjs`

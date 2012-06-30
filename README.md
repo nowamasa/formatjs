@@ -43,7 +43,7 @@ require(['formatjs'], function(formatjs) {
 
 ## Contributing
 Install [nodejs](http://nodejs.org/).<br>
-Install [coffee-script](http://coffeescript.org/) with: `npm install -g coffee-script`.<br>
+Install [CoffeeScript](http://coffeescript.org/) with: `npm install -g coffee-script`.<br>
 Install dependencies with: `npm install`.<br>
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Test your code using [grunt](https://github.com/cowboy/grunt).

@@ -1,7 +1,7 @@
 
 /*
-* format.js
-* https://github.com/nowamasa/format.js
+* formatjs
+* https://github.com/nowamasa/formatjs
 *
 * Copyright (c) 2012 nowamasa
 * Licensed under the MIT license.
@@ -126,7 +126,7 @@
   };
 
   if (typeof module !== 'undefined') {
-    module.exports.formatjs = {
+    module.exports = {
       test: test
     };
   }

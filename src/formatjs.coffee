@@ -1,6 +1,6 @@
 ###
-* format.js
-* https://github.com/nowamasa/format.js
+* formatjs
+* https://github.com/nowamasa/formatjs
 *
 * Copyright (c) 2012 nowamasa
 * Licensed under the MIT license.
@@ -51,6 +51,6 @@ test = (string, format)->
     return true for formatItem in format when singleTest(string, formatItem)
     false
 
-module.exports.formatjs = { test }   if typeof module isnt 'undefined'             # CommonJS module
+module.exports = { test }            if typeof module isnt 'undefined'             # CommonJS module
 window.formatjs = { test }           if typeof window isnt 'undefined'             # browser window
 define("formatjs", [], -> { test } ) if typeof define is "function" and define.amd # AMD module

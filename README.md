@@ -42,7 +42,7 @@ require(['formatjs'], function(formatjs) {
 ```
 
 ## Contributing
-Install [nodejs](http://nodejs.org/).<br>
+Install [Node.js](http://nodejs.org/).<br>
 Install [CoffeeScript](http://coffeescript.org/) with: `npm install -g coffee-script`.<br>
 Install dependencies with: `npm install`.<br>
 

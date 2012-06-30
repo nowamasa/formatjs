@@ -9,7 +9,7 @@ JavaScript date format tester.
 Install the module with: `npm install formatjs`
 
 ```javascript
-var formatjs = require('./formatjs');
+var formatjs = require('formatjs');
 formatjs.test('12/04', 'YYYY/MM');   // false
 formatjs.test('2012/04', 'YYYY/MM'); // true
 ```

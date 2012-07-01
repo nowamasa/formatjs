@@ -21,49 +21,38 @@ test('2012/04', ['YYYY/MM', 'YYYY/MM/DD']); // true, match
 ## Available format tokens
 <pre>
                 Token
-Month
-                M           1 2 ... 11 12
+
+Month           M           1 2 ... 11 12
                 Mo	        1st 2nd ... 11th 12th
                 MM	        01 02 ... 11 12
                 MMM	        Jan Feb ... Nov Dec
                 MMMM	    January February ... November December
-Day of Month
-                D	        1 2 ... 30 30
+Day of Month    D	        1 2 ... 30 30
                 Do	        1st 2nd ... 30th 31st
                 DD	        01 02 ... 30 31
-Day of Year
-                DDD	        1 2 ... 364 365
+Day of Year     DDD	        1 2 ... 364 365
                 DDDo	    1st 2nd ... 364th 365th
                 DDDD	    001 002 ... 364 365
-Day of Week
-                d	        0 1 ... 5 6
+Day of Week     d	        0 1 ... 5 6
                 do	        0th 1st ... 5th 6th
                 ddd	        Sun Mon ... Fri Sat
                 dddd	    Sunday Monday ... Friday Saturday
-Week of Year
-                w	        1 2 ... 52 53
+Week of Year    w	        1 2 ... 52 53
                 wo	        1st 2nd ... 52nd 53rd
                 ww	        01 02 ... 52 53
-Year
-                YY	        70 71 ... 29 30
+Year            YY	        70 71 ... 29 30
                 YYYY	    1970 1971 ... 2029 2030
-AM/PM
-                A	        AM PM
+AM/PM           A	        AM PM
                 a	        am pm
-Hour
-                H	        0 1 ... 22 23
+Hour            H	        0 1 ... 22 23
                 HH	        00 01 ... 22 23
                 h	        1 2 ... 11 12
                 hh	        01 02 ... 11 12
-Minute
-                m	        0 1 ... 58 59
+Minute          m	        0 1 ... 58 59
                 mm	        00 01 ... 58 59
-Second
-                s	        0 1 ... 58 59
+Second          s	        0 1 ... 58 59
                 ss	        00 01 ... 58 59
-Timezone
-                z or zz	    EST CST ... MST PST
-
+Timezone        z or zz	    EST CST ... MST PST
                 Z	        -07:00 -06:00 ... +06:00 +07:00
                 ZZ	        -0700 -0600 ... +0600 +0700
 </pre>

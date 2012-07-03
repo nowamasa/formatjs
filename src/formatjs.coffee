@@ -26,9 +26,9 @@ getParseRegexForToken = (token)->
         when 'MM','DD','dd','YY','HH','hh','mm','ss','M','D','d','H','h','m','s' then return parseTokenOneOrTwoDigits
         else                                                                          return new RegExp(token.replace('\\', ''))
 
-isArray = (obj)-> toString.call(obj) is '[object Array]'
+isArray = (obj)-> Object.prototype.toString.call(obj) is '[object Array]'
 
-isString = (obj)-> toString.call(obj) is '[object String]'
+isString = (obj)-> Object.prototype.toString.call(obj) is '[object String]'
 
 isValidStringParam = (string)-> string and isString(string)
 

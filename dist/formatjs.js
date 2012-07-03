@@ -72,11 +72,11 @@
   };
 
   isArray = function(obj) {
-    return toString.call(obj) === '[object Array]';
+    return Object.prototype.toString.call(obj) === '[object Array]';
   };
 
   isString = function(obj) {
-    return toString.call(obj) === '[object String]';
+    return Object.prototype.toString.call(obj) === '[object String]';
   };
 
   isValidStringParam = function(string) {

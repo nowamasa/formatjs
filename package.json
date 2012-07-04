@@ -1,7 +1,7 @@
 {
     "name":"formatjs",
     "description":"JavaScript date format tester.",
-    "version":"0.1.0",
+    "version":"0.1.1",
     "homepage":"https://github.com/nowamasa/formatjs",
     "author":{
         "name":"nowamasa",
@@ -32,5 +32,5 @@
         "grunt":"~0.3.9",
         "grunt-coffee":"~0.0.2"
     },
-    "keywords":["validator", "date formats"]
+    "keywords":["validator", "dates", "testing", "format", "date formats"]
 }
